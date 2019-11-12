@@ -1,3 +1,8 @@
+<?php
+    define("TITLE", "Home");
+    include_once("Database.php");
+?>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Brand/logo -->

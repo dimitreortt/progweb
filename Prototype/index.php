@@ -1,3 +1,7 @@
+<?php
+    define("TITLE", "Index");
+    include_once("Database.php");
+?>
 <!DOCTYPE html>
     <html>
     <head>
@@ -47,6 +51,8 @@
     if(isset($_GET["page"])){
         include $_GET["page"].".php";
     }else{
+        // inicia o banco de dados
+        //include "Database.php";
         include "Login.php";
     }
     ?>
